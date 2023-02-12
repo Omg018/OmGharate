@@ -3605,12 +3605,12 @@ input, select, textarea {
 			bottom: -3rem;
 			right: 0;
 			font-size: 0.8rem;
-			color: black;
+			color: white;
 			margin-bottom: 0;
 		}
 
 			#wrapper > .copyright a:hover {
-				color: black;
+				color: white;
 			}
 
 		#wrapper.is-dragging {
@@ -3670,7 +3670,7 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 				text-align: center;
-				color: black;
+				color: white;
 			}
 
 			body.is-preload #wrapper {
