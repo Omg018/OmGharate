@@ -164,10 +164,7 @@
             <div class="bg-card p-8 rounded-xl shadow-2xl border-t-4 border-accent fade-in">
                 <h2 class="text-3xl font-bold mb-4 text-white">Professional Summary</h2>
                 <p class="text-gray-300 leading-relaxed text-lg">
-                    Highly motivated Full Stack Developer experienced in designing and deploying scalable applications.
-                    Skilled in Python, React.js, Node.js, MongoDB, and Machine Learning. Proven record of optimizing
-                    backend performance, managing cross-functional teams, and building AI-powered products such as
-                    Emotica AI. Seeking to leverage development skills for impactful solutions.
+                    2026 B.E. graduate in AI & Machine Learning (CGPA 8.4, No Backlogs) with strong foundations in object-oriented design, data structures, and algorithm problem-solving. Built and deployed scalable, AI-integrated web applications using Python, JavaScript, and REST APIs. Completed multiple technical internships. Passionate about building high-quality software at scale and working in fast-paced, customer-obsessed engineering environments.
                 </p>
             </div>
         </section>
@@ -305,30 +302,26 @@
         const projectData = [
             {
                 id: 1,
-                title: "Quickies AI",
-                subtitle: "AI Productivity Toolkit (Nov 2025 – Present)",
+                title: "CodeView",
+                subtitle: "AI Code Evaluation Platform (Nov 2025 – Dec 2025)",
                 description: [
-                    "Built a modular AI toolkit offering text, image, and utility microservices for rapid content creation.",
-                    "Designed clean UI and connected prediction APIs for quick, user-friendly AI interactions."
+                    "Architected and built an LLM-integrated code evaluation system using Next.js and FastAPI.",
+                    "Designed REST API endpoints connecting front-end, LLM services, and database layer, reducing manual review time by 70%."
                 ],
-                // REPLACED imageUrl with images array
                 images: [
-                    "./images/quickiesai/Dashboard.png",
-                    "./images/quickiesai/Tools.png",
-                    "./images/quickiesai/Features.png"
-
+                    "https://placehold.co/600x400/1e1e1e/00bcd4?text=CodeView"
                 ],
-                github: "https://github.com/Omg018/QuickiesAI",
-                deployed: "https://quickiesai.netlify.app/",
-                fullDescriptionText: "Quickies AI is a modular toolkit offering text, image, and utility microservices for rapid content creation. It features a clean, user-friendly UI connected to prediction APIs, enabling quick and efficient AI interactions."
+                github: "https://github.com/Omg018",
+                deployed: "#",
+                fullDescriptionText: "CodeView is an AI Code Evaluation Platform. It uses an LLM-integrated code evaluation system using Next.js and FastAPI, with REST API endpoints connecting front-end, LLM services, and a database layer to reduce manual review time by 70%."
             },
             {
                 id: 2,
                 title: "Emotica AI",
                 subtitle: "Mental Wellness Platform (July 2025 – Present)",
                 description: [
-                    "Developed an AI-driven emotional wellness platform with a voice-enabled chatbot and emotion-based responses.",
-                    "Integrated journaling, mood tracking, and micro-wellness tools using Python, Node.js, and React.js."
+                    "Developed the Python backend, WebSocket communication layer, and LLM API integration.",
+                    "Built a real-time emotion-aware chatbot supporting asynchronous voice interactions."
                 ],
                 images: [
                     "./images/emoticaai/Dashboard.png",
@@ -342,6 +335,23 @@
             },
             {
                 id: 3,
+                title: "Quickies AI",
+                subtitle: "Modular Productivity Platform (Dec 2025 – Feb 2026)",
+                description: [
+                    "Built a modular AI platform using React and FastAPI.",
+                    "Integrated four LLM-powered services through scalable REST APIs with an extensible architecture."
+                ],
+                images: [
+                    "./images/quickiesai/Dashboard.png",
+                    "./images/quickiesai/Tools.png",
+                    "./images/quickiesai/Features.png"
+                ],
+                github: "https://github.com/Omg018/QuickiesAI",
+                deployed: "https://quickiesai.netlify.app/",
+                fullDescriptionText: "Quickies AI is a modular productivity platform built using React and FastAPI. It integrates four LLM-powered services through scalable REST APIs with an extensible architecture."
+            },
+            {
+                id: 4,
                 title: "Ascendify AI",
                 subtitle: "Career Platform (Aug 2025 – Sep 2025)",
                 description: [
@@ -349,13 +359,12 @@
                     "Developed scalable APIs, React UI, and MongoDB data models for user profiles and insights."
                 ],
                 images: [
-                    "./images/ascendifyai/Dashboard.png",
-                    "./images/ascendifyai/Tools.png",
-                    "./images/ascendifyai/About.png"
-
+                    "./images/AscendifyAi/Dashboard.png",
+                    "./images/AscendifyAi/Tools.png",
+                    "./images/AscendifyAi/About.png"
                 ],
-                github: "https://ascendify1-1.onrender.com/",
-                deployed: "https://ascendify.ai",
+                github: "https://github.com/Omg018/AscendifyAI",
+                deployed: "https://ascendify1-1.onrender.com/",
                 fullDescriptionText: "Ascendify AI is an AI-powered career recommendation system. It provides personalized skill pathways and dashboards. The technical stack involves scalable APIs, a React UI, and MongoDB data models for managing user profiles and generating insights."
             }
         ];
@@ -365,49 +374,57 @@
             {
                 title: "Web Development",
                 icon: "fas fa-code",
-                tags: ["React.js", "Next.js", "Node.js", "Express.js", "REST APIs", "HTML", "CSS"],
+                tags: ["React.js", "Next.js", "Node.js", "Express.js", "FastAPI", "REST APIs", "HTML", "CSS"],
                 delay: 0
             },
             {
                 title: "Databases",
                 icon: "fas fa-database",
-                tags: ["MongoDB", "PostgreSQL"],
+                tags: ["MongoDB", "PostgreSQL", "SQL"],
                 delay: 0.1
             },
             {
-                title: "Tools & DevOps",
+                title: "Tools & Cloud",
                 icon: "fas fa-toolbox",
-                tags: ["Git", "GitHub", "Linux", "Render", "Jira", "Trello"],
+                tags: ["Git", "GitHub", "Docker", "AWS", "Render", "Vercel"],
                 delay: 0.2
             },
             {
                 title: "Programming & AI",
                 icon: "fas fa-brain",
-                tags: ["Python", "JavaScript", "TypeScript", "SQL", "Machine Learning"],
+                tags: ["Python", "JavaScript", "TypeScript", "Generative AI", "PyTorch"],
                 delay: 0.3
             }
         ];
 
         const experienceData = [
             {
-                title: "Backend Developer Intern",
-                company: "Sumago Infotech Pvt. Ltd. | Nashik, India",
-                date: "June 2022 – Dec 2022",
+                title: "Data Analyst Intern",
+                company: "DMS Computers and Technology",
+                date: "Jan 2025 – Feb 2025",
                 duties: [
-                    "Optimized backend database queries, improving performance by 30%.",
-                    "Collaborated with frontend teams to ensure seamless API integration.",
-                    "Worked in Agile sprints, meeting deadlines and improving feature delivery."
+                    "Analyzed Zoho's competitor SaaS datasets using Python and Excel, identifying application-level feature and infrastructure gaps to inform product strategy.",
+                    "Presented data-driven visual reports to a 3-member founding team, directly shaping product roadmap decisions."
                 ],
                 delay: 0
             },
             {
                 title: "Web Developer Intern",
-                company: "Code Casa | Remote",
+                company: "Code Casa",
                 date: "Oct 2023 – Dec 2023",
                 duties: [
-                    "Built responsive full-stack applications using MERN stack."
+                    "Independently designed, developed, and deployed a full-stack MERN web application from requirements to production within a 4-week timeline."
                 ],
                 delay: 0.1
+            },
+            {
+                title: "Web Developer Intern",
+                company: "Sumago Infotech Pvt. Ltd.",
+                date: "Jul 2022 – Aug 2022",
+                duties: [
+                    "Collaborated in a 4-member Agile team to design and build a web application using HTML, CSS, JavaScript, Python, and PHP."
+                ],
+                delay: 0.2
             }
         ];
 
@@ -416,7 +433,7 @@
                 title: "B.E., AI and Machine Learning",
                 institution: "LoGMIEER College, Nashik",
                 date: "2023 – 2026",
-                details: ["CGPA: 8.6"],
+                details: ["CGPA: 8.4"],
                 delay: 0
             },
             {
@@ -429,12 +446,12 @@
         ];
 
         const certificationData = [
-            "Complete JAVASCRIPT Expert (Udemy)",
-            "Bring AI to Work Workshop (Google)",
-            "Data Analytics Virtual Experience (Deloitte)",
             "Prompt Design in Vertex AI (Google)",
             "Deep Learning with PyTorch (Coursera)",
-            "Gen AI (TensorFlow User Group)"
+            "Data Analytics Virtual Experience (Deloitte)",
+            "Generative AI (TensorFlow User Group)",
+            "Complete JAVASCRIPT Expert (Udemy)",
+            "Bring AI to Work Workshop (Google)"
         ];
 
 
